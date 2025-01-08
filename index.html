@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design completo de site responsivo para loja de tênis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo_sem_fundo.png" type="image/png">
+</head>
+<body>
+
+<!--header seção início-->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">início</a>
+        <a href="#about">sobre</a>
+        <a href="#menu">catálogo</a>
+        <a href="#products">produtos</a>
+        <a href="#review">análises</a>
+        <a href="#contact">contato</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="pesquise aqui...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/tenis_01.png" alt="">
+            <div class="content">
+                <h3>Nike Court Vision</h3>
+                <div class="price">R$ 499,00</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/tenis_02.png" alt="">
+            <div class="content">
+                <h3>Nike Revolution 6</h3>
+                <div class="price">R$ 299,00</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/tenis_03.png" alt="">
+            <div class="content">
+                <h3>Nike Court Low</h3>
+                <div class="price">R$ 649,00</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/tenis_04.png" alt="">
+            <div class="content">
+                <h3>Nike Revolution 7</h3>
+                <div class="price">R$ 359,00</div>
+            </div>
+        </div>
+        <a href="#" class="btn">finalizar compra</a>
+    </div>
+
+</header>
+
+<!--header seção final-->
+
+<!--home seção início-->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Desempenho <br>ilimitado<br>em seus pés</h3>
+        <p>Descubra o conforto e a durabilidade da nova linha de tênis Nike. Combinando tecnologia de ponta e design inovador, cada passo é mais leve e ágil. Leve seu potencial ao próximo nível com Nike!</p>
+        <a href="#" class="btn">Garanta já!</a>
+    </div>
+
+</section>
+
+ <!--home seção final-->
+
+ <!--about seção início-->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>sobre</span> nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/logo2.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>O que torna nossos produtos especiais?</h3>
+            <p>Em nossa loja virtual, você encontra a linha completa de tênis Nike, criada para elevar seu desempenho e estilo. Cada produto é desenvolvido com tecnologias inovadoras, garantindo conforto, durabilidade e design incomparável.</p>
+            <p>Nosso compromisso é oferecer a você uma experiência de compra fácil e segura, com produtos originais e de alta qualidade, perfeitos para quem busca mais do que um tênis – busca uma experiência única a cada passo.</p>
+            <a href="#" class="btn">saiba mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--about seção final-->
+
+<!--menu seção início-->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> nosso <span>catálogo</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/tenis_01.png" alt="">
+            <h3>Nike Court Vision</h3>
+            <div class="price">R$499,00 <span>599,00</span></div>
+            <a href="#" class="btn">add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/tenis_02.png" alt="">
+            <h3>Nike Revolution 6</h3>
+            <div class="price">R$299,00 <span>399,00</span></div>
+            <a href="#" class="btn">add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/tenis_03.png" alt="">
+            <h3>Nike Court Low</h3>
+            <div class="price">R$649,00 <span>799,00</span></div>
+            <a href="#" class="btn">add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/tenis_04.png" alt="">
+            <h3>Nike Revolution 7</h3>
+            <div class="price">R$359,00 <span>499,00</span></div>
+            <a href="#" class="btn">add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/tenis_05.png" alt="">
+            <h3>Nike Impact 4</h3>
+            <div class="price">R$449,00 <span>499,00</span></div>
+            <a href="#" class="btn">add ao carrinho</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--menu seção final-->
+
+<!--produtos seção início-->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> nossos <span>produtos</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/tenis_01.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Nike Court Vision</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$ 499,00 <span>R$ 599.00</span></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/tenis_02.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Nike Revolution 6</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$ 299,00 <span>R$ 399.00</span></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/tenis_03.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Nike Court Low</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$ 649,00 <span>R$ 799.00</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--produtos seção final-->
+
+<!--análises seção início-->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> análises de <span>clientes</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/avatar_pedro.png" alt="" class="quote">
+            <p>Comprei meu Nike Air Max 270 e foi uma experiência incrível! O atendimento foi rápido e o produto chegou antes do prazo. Vou comprar novamente!</p>
+            <img src="images/tenis_03.png" class="user" alt="">
+            <h3>Pedro Henrique</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/avatar_ana.png" alt="" class="quote">
+            <p>Adorei o conforto do meu Nike Revolution! O site é super fácil de usar e as promoções são incríveis. Já recomendei para meus amigos</p>
+            <img src="images/tenis_04.png" class="user" alt="">
+            <h3>Ana Silva</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/avatar_lucas.png" alt="" class="quote">
+            <p>Sem palavras para a qualidade do Nike Vaporfly que adquiri! O suporte respondeu todas as minhas dúvidas e o envio foi muito ágil. 100% satisfeito!</p>
+            <img src="images/tenis_02.png" class="user" alt="">
+            <h3>Lucas Ferreira</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--análises seção final-->
+
+<!--contato seção início-->
+
+<section class="contact" id="contact">
+
+    <h1 class="headding"><span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.7108260301175!2d-48.853673313588246!3d-26.303472908746322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb047df2b28ef%3A0xbf208682735a91d!2sShopping%20Mueller%20Joinville!5e0!3m2!1spt-BR!2sbr!4v1729210153610!5m2!1spt-BR!2sbr"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <form action="">
+            <h3>entre em contato</h3>
+            <div class="inpoutBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nome">
+            </div>
+            <div class="inpoutBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="e-mail">
+            </div>
+            <div class="inpoutBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="número">
+            </div>
+            <input type="submit" value="entre em contato agora" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!--contato seção final-->
+
+<!--blogs seção início-->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> nossos <span>blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blogs_01.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">A evolução da tecnologia Nike Air</a>
+                <span>por admin / 10 de janeiro de 2025</span>
+                <p>Desde o lançamento do primeiro Air Max, a Nike vem redefinindo o conceito de conforto e performance. Descubra como a tecnologia Air revolucionou o design de tênis esportivos ao longo das décadas.</p>
+                <a href="#" class="btn">leia mais</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blogs_02.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Sustentabilidade a cada passo</a>
+                <span>por admin / 5 de fevereiro de 2025</span>
+                <p>A Nike está comprometida com o futuro do planeta. Saiba mais sobre iniciativas como o uso de materiais reciclados e práticas responsáveis que tornam cada par de tênis mais sustentável.</p>
+                <a href="#" class="btn">leia mais</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blogs_03.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Nike e o mundo dos esportes</a>
+                <span>por admin / 20 de março de 2025</span>
+                <p>De atletas profissionais a entusiastas do esporte, a Nike se tornou um ícone global. Explore como a marca colabora com os maiores nomes do esporte para criar produtos inovadores e de alta performance.</p>
+                <a href="#" class="btn">leia mais</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--blogs seção final-->
+
+<!--rodapé seção início-->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    
+    <div class="links">
+        <a href="#">início</a>
+        <a href="#">sobre</a>
+        <a href="#">catálogo</a>
+        <a href="#">produtos</a>
+        <a href="#">análises</a>
+        <a href="#">contato</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="credit">created by <span>Sidnei Barcelos</span> / all rights reserved</div>
+
+</section>
+
+<!--rodapé seção final-->
+
+<script src="script.js"></script>
+</body>
+</html>
